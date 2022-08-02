@@ -1,0 +1,18 @@
+
+html {
+    font-family: sans-serif;
+  }
+
+  body {
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+    background-color: rgb(116, 116, 255);
+  }
+
+  .resAnt {
+    color: white;
+    padding: 3px;
+  }
+

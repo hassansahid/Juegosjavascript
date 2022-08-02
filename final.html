@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ponzineta</title>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="./assets/css/detalles.css">
+
+    
+</head>
+
+<body>
+    <header>
+        <h4>Gracias por el ingreso:
+            <p id="usuario1"></p> de <p id="pais1"></p>
+        </h4>
+    </header>
+    <main>
+        <div class="text-center">
+            <h1>BIENVENIDO A LA DIVERSIÓN!</h1>
+            <h4>En esta página te vas a entretener con dos juegos con números.<h4>
+        </div>
+    </main>
+    <h1>Juego: Adivina el número</h1>
+
+    <p>Hemos seleccionado un número aleatorio entre 1 y 100. Fíjate si lo puedes adivinar en 10 turnos o menos. Vamos a
+        decirte si tu número es más alto o más bajo.</p>
+
+    <div class="form">
+        <label for="adivinaNum">Adivina el numero: </label>
+        <input type="text" id="adivinaNum" class="adivinaNum">
+        <input type="submit" value="Enviar" class="enviar">
+    </div>
+
+    <div class="resultados">
+        <p class="suposiciones"></p>
+        <p class="resAnt"></p>
+        <p class="lowOrHi"></p>
+    </div>
+
+
+
+
+    <h1>Juego: Acertar si el número Mayor o Menor</h1>
+
+    <p>Hemos seleccionado un número aleatorio entre 1 y 10. Debes adivinar si el siguiente numero es mayor o menor.</p>
+
+    <div class="resultados1">
+        <br>Numero seleccionado:</br> <p class="center" id="numRandom2"></p>
+        <button id="mayor">MAYOR</button>
+        <button id="menor">MENOR</button>
+        <p class="resAnt1"></p>
+        <p class="lowOrHi1"></p>
+        <p class="final1"></p>
+    </div>
+
+
+
+
+
+</body>
+<script src="./js/main.js"></script>
+</html>
